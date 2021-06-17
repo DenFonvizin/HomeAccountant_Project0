@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:background="#232323"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Title"
+            android:textColor="@color/colorWhite"
+            android:textStyle="bold"
+            android:textSize="24sp"
+            android:fontFamily="sans-serif-medium"
+            android:layout_marginTop="10dp"
+            android:id="@+id/dialog_title"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_margin="10dp"
+            android:text="Enter Title Here"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:textSize="18sp"
+            android:id="@+id/title_import"
+            android:textColor="@color/colorBlack"
+            android:background="@color/colorWhite"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="Amount:"
+            android:textColor="@color/colorWhite"
+            android:layout_marginTop="5dp"
+            android:fontFamily="sans-serif-medium"
+            android:layout_marginBottom="10dp"
+            android:id="@+id/dialog_amount"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_margin="10dp"
+            android:text="Enter Title Here"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:textSize="18sp"
+            android:id="@+id/amount_import"
+            android:textColor="@color/colorBlack"
+            android:background="@color/colorWhite"/>
+
+
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:src="@drawable/icon_add__black"
+            android:id="@+id/button_import"/>
+
+    </LinearLayout>
+
+
+</RelativeLayout>
